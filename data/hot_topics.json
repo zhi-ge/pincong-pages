@@ -15,14 +15,21 @@
 
 
 
+
+
 [
     
         
         
 
+        
+        
+
     {
         "name": "政治",
-        "size": 134,
+        "size": 153,
+        "question": 134,
+        "article": 19,
         "last_3_posts": [
             
             {
@@ -46,9 +53,14 @@
         
         
 
+        
+        
+
     {
         "name": "社会",
-        "size": 97,
+        "size": 121,
+        "question": 97,
+        "article": 24,
         "last_3_posts": [
             
             {
@@ -72,9 +84,14 @@
         
         
 
+        
+        
+
     {
         "name": "历史",
-        "size": 51,
+        "size": 66,
+        "question": 51,
+        "article": 15,
         "last_3_posts": [
             
             {
