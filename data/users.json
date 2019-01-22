@@ -39,6 +39,12 @@
                 
                     
                     {
+                        "question_id": "6234",
+                        "answer_id": "6282"
+                    },
+                
+                    
+                    {
                         "question_id": "6078",
                         "answer_id": "6631"
                     },
@@ -220,6 +226,12 @@
                     
                     {
                         "question_id": "36146",
+                        "answer_id": "36222"
+                    },
+                
+                    
+                    {
+                        "question_id": "36146",
                         "answer_id": "36305"
                     },
                 
@@ -347,6 +359,12 @@
                     {
                         "question_id": "13028",
                         "answer_id": "52418"
+                    },
+                
+                    
+                    {
+                        "question_id": "55389",
+                        "answer_id": "55680"
                     },
                 
                     
@@ -635,6 +653,12 @@
                     {
                         "question_id": "40134",
                         "answer_id": "138106"
+                    },
+                
+                    
+                    {
+                        "question_id": "56089",
+                        "answer_id": "56140"
                     },
                 
                     
@@ -4093,6 +4117,12 @@
                 
                     
                     {
+                        "question_id": "144359",
+                        "answer_id": "144826"
+                    },
+                
+                    
+                    {
                         "question_id": "147138",
                         "answer_id": "147271"
                     }
@@ -4531,6 +4561,12 @@
                     {
                         "question_id": "53394",
                         "answer_id": "54636"
+                    },
+                
+                    
+                    {
+                        "question_id": "56089",
+                        "answer_id": "56405"
                     },
                 
                     
@@ -7177,6 +7213,12 @@
                 
                     
                     {
+                        "question_id": "56089",
+                        "answer_id": "56288"
+                    },
+                
+                    
+                    {
                         "question_id": "123659",
                         "answer_id": "123723"
                     },
@@ -8823,6 +8865,12 @@
             "user_avatar": "/static/upload/thumb/small50-u-thumb-default.png",
             "answers": [
                 
+                
+                    
+                    {
+                        "question_id": "56089",
+                        "answer_id": "56132"
+                    },
                 
                     
                     {
@@ -12892,6 +12940,12 @@
                     {
                         "question_id": "133869",
                         "answer_id": "134230"
+                    },
+                
+                    
+                    {
+                        "question_id": "142304",
+                        "answer_id": "142468"
                     }
                 
             ]
