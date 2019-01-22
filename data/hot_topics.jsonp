@@ -27,8 +27,8 @@ callback([
 
     {
         "name": "政治",
-        "size": 165,
-        "question": 146,
+        "size": 170,
+        "question": 151,
         "article": 19,
         "last_3_posts": [
             
@@ -58,8 +58,8 @@ callback([
 
     {
         "name": "社会",
-        "size": 134,
-        "question": 110,
+        "size": 141,
+        "question": 117,
         "article": 24,
         "last_3_posts": [
             
@@ -89,14 +89,14 @@ callback([
 
     {
         "name": "历史",
-        "size": 72,
-        "question": 57,
+        "size": 73,
+        "question": 58,
         "article": 15,
         "last_3_posts": [
             
             {
-                "title": "有哪些中国墙内习以为常的，国外却不可以做的事情？",
-                "url": "/p/6079/"
+                "title": "一个政权的合法性到底是指什么属性？",
+                "url": "/p/5041/"
             },
             
             {
