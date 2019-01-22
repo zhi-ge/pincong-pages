@@ -27,8 +27,8 @@ callback([
 
     {
         "name": "政治",
-        "size": 154,
-        "question": 135,
+        "size": 165,
+        "question": 146,
         "article": 19,
         "last_3_posts": [
             
@@ -58,8 +58,8 @@ callback([
 
     {
         "name": "社会",
-        "size": 123,
-        "question": 99,
+        "size": 134,
+        "question": 110,
         "article": 24,
         "last_3_posts": [
             
@@ -89,8 +89,8 @@ callback([
 
     {
         "name": "历史",
-        "size": 67,
-        "question": 52,
+        "size": 72,
+        "question": 57,
         "article": 15,
         "last_3_posts": [
             
