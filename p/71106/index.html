@@ -116,8 +116,21 @@
 
 
 <div style="height: 30px;margin-top: 15px;">
-    <div id="translateLink" class="btn-gray" style="float: right; font-size: 11px; cursor: pointer; margin-right: 15px;">简繁转换</div>
+    <div
+        id="translateLink"
+        class="btn-gray"
+        style="float: right; font-size: 11px; cursor: pointer; margin-right: 15px;"
+        onclick="TongWen.transAuto()"
+    >
+        简繁转换
+    </div>
 </div>
+
+<script src="../.././static/lib/tongwentang/tongwen_core.js"></script>
+<script src="../.././static/lib/tongwentang/tongwen_table_s2t.min.js"></script>
+<script src="../.././static/lib/tongwentang/tongwen_table_t2s.min.js"></script>
+<script src="../.././static/lib/tongwentang/tongwen_table_ps2t.min.js"></script>
+<script src="../.././static/lib/tongwentang/tongwen_table_pt2s.min.js"></script>
 
 
 <div class="row">
@@ -310,22 +323,55 @@
             
             <div class="user-detail-item" style="padding: 0px;">
                 <div class="tags-post-title">
-                    <a target="_blank" href="../.././p/149934/">
-                        聊聊今年包皇这些事儿
+                    <a target="_blank" href="../.././p/80126/">
+                        中國的未來（各種崩潰論簡介）
                     </a>
                     <a target="_blank">
-                        <span style="font-size: 10px;color: #999;">@贰佰斤</span>
+                        <span style="font-size: 10px;color: #999;">@粗鄙</span>
                     </a>
                 </div>
             </div>
             
             <div class="user-detail-item" style="padding: 0px;">
                 <div class="tags-post-title">
-                    <a target="_blank" href="../.././p/41555/">
-                        跑分破纪录，三星为华为海思敲响警钟
+                    <a target="_blank" href="../.././p/74177/">
+                        全记录 | 岳昕申请信息公开被约谈施压事件
                     </a>
                     <a target="_blank">
-                        <span style="font-size: 10px;color: #999;">@爱喵党</span>
+                        <span style="font-size: 10px;color: #999;">@时代先锋网</span>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="user-detail-item" style="padding: 0px;">
+                <div class="tags-post-title">
+                    <a target="_blank" href="../.././p/71287/">
+                        劉仲敬：假國家
+                    </a>
+                    <a target="_blank">
+                        <span style="font-size: 10px;color: #999;">@粗鄙</span>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="user-detail-item" style="padding: 0px;">
+                <div class="tags-post-title">
+                    <a target="_blank" href="../.././p/115492/">
+                        贸易战接下来会发生什么（个人粗浅的观点）
+                    </a>
+                    <a target="_blank">
+                        <span style="font-size: 10px;color: #999;">@利维坦</span>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="user-detail-item" style="padding: 0px;">
+                <div class="tags-post-title">
+                    <a target="_blank" href="../.././p/128381/">
+                        中国式军训：迷彩崇拜与威权国家的上行下效
+                    </a>
+                    <a target="_blank">
+                        <span style="font-size: 10px;color: #999;">@风之轻语</span>
                     </a>
                 </div>
             </div>
@@ -343,55 +389,22 @@
             
             <div class="user-detail-item" style="padding: 0px;">
                 <div class="tags-post-title">
-                    <a target="_blank" href="../.././p/72271/">
-                        東亞窪地的費拉循環
+                    <a target="_blank" href="../.././p/86205/">
+                        姨粉们，悄悄告诉你们姨学其实源于毛学
                     </a>
                     <a target="_blank">
-                        <span style="font-size: 10px;color: #999;">@粗鄙</span>
+                        <span style="font-size: 10px;color: #999;">@通商宽衣</span>
                     </a>
                 </div>
             </div>
             
             <div class="user-detail-item" style="padding: 0px;">
                 <div class="tags-post-title">
-                    <a target="_blank" href="../.././p/148596/">
-                        再谈中国民主化后的制度设计
+                    <a target="_blank" href="../.././p/41555/">
+                        跑分破纪录，三星为华为海思敲响警钟
                     </a>
                     <a target="_blank">
-                        <span style="font-size: 10px;color: #999;">@陈士杰</span>
-                    </a>
-                </div>
-            </div>
-            
-            <div class="user-detail-item" style="padding: 0px;">
-                <div class="tags-post-title">
-                    <a target="_blank" href="../.././p/49168/">
-                        一群在没有价值的谎言中生活的人，永远没有未来可言
-                    </a>
-                    <a target="_blank">
-                        <span style="font-size: 10px;color: #999;">@黃正宇</span>
-                    </a>
-                </div>
-            </div>
-            
-            <div class="user-detail-item" style="padding: 0px;">
-                <div class="tags-post-title">
-                    <a target="_blank" href="../.././p/54043/">
-                        言论自由的边界在哪里？
-                    </a>
-                    <a target="_blank">
-                        <span style="font-size: 10px;color: #999;">@品大萝卜</span>
-                    </a>
-                </div>
-            </div>
-            
-            <div class="user-detail-item" style="padding: 0px;">
-                <div class="tags-post-title">
-                    <a target="_blank" href="../.././p/85201/">
-                        毛澤東思想
-                    </a>
-                    <a target="_blank">
-                        <span style="font-size: 10px;color: #999;">@粗鄙</span>
+                        <span style="font-size: 10px;color: #999;">@爱喵党</span>
                     </a>
                 </div>
             </div>

@@ -116,8 +116,21 @@
 
 
 <div style="height: 30px;margin-top: 15px;">
-    <div id="translateLink" class="btn-gray" style="float: right; font-size: 11px; cursor: pointer; margin-right: 15px;">简繁转换</div>
+    <div
+        id="translateLink"
+        class="btn-gray"
+        style="float: right; font-size: 11px; cursor: pointer; margin-right: 15px;"
+        onclick="TongWen.transAuto()"
+    >
+        简繁转换
+    </div>
 </div>
+
+<script src="../.././static/lib/tongwentang/tongwen_core.js"></script>
+<script src="../.././static/lib/tongwentang/tongwen_table_s2t.min.js"></script>
+<script src="../.././static/lib/tongwentang/tongwen_table_t2s.min.js"></script>
+<script src="../.././static/lib/tongwentang/tongwen_table_ps2t.min.js"></script>
+<script src="../.././static/lib/tongwentang/tongwen_table_pt2s.min.js"></script>
 
 
 <div class="row">
@@ -342,66 +355,11 @@
             
             <div class="user-detail-item" style="padding: 0px;">
                 <div class="tags-post-title">
-                    <a target="_blank" href="../.././p/86205/">
-                        姨粉们，悄悄告诉你们姨学其实源于毛学
-                    </a>
-                    <a target="_blank">
-                        <span style="font-size: 10px;color: #999;">@通商宽衣</span>
-                    </a>
-                </div>
-            </div>
-            
-            <div class="user-detail-item" style="padding: 0px;">
-                <div class="tags-post-title">
-                    <a target="_blank" href="../.././p/125324/">
-                        大情报意味着什么？（1）
-                    </a>
-                    <a target="_blank">
-                        <span style="font-size: 10px;color: #999;">@杨圭葱</span>
-                    </a>
-                </div>
-            </div>
-            
-            <div class="user-detail-item" style="padding: 0px;">
-                <div class="tags-post-title">
-                    <a target="_blank" href="../.././p/55961/">
-                        西化系列（一）全盘西化是唯一的出路
-                    </a>
-                    <a target="_blank">
-                        <span style="font-size: 10px;color: #999;">@番茄洋葱</span>
-                    </a>
-                </div>
-            </div>
-            
-            <div class="user-detail-item" style="padding: 0px;">
-                <div class="tags-post-title">
-                    <a target="_blank" href="../.././p/85782/">
-                        只有共產國際才有能力發明中國
+                    <a target="_blank" href="../.././p/85201/">
+                        毛澤東思想
                     </a>
                     <a target="_blank">
                         <span style="font-size: 10px;color: #999;">@粗鄙</span>
-                    </a>
-                </div>
-            </div>
-            
-            <div class="user-detail-item" style="padding: 0px;">
-                <div class="tags-post-title">
-                    <a target="_blank" href="../.././p/115354/">
-                        拒绝被骚扰的第一百零一种方式
-                    </a>
-                    <a target="_blank">
-                        <span style="font-size: 10px;color: #999;">@鹿ㄦ</span>
-                    </a>
-                </div>
-            </div>
-            
-            <div class="user-detail-item" style="padding: 0px;">
-                <div class="tags-post-title">
-                    <a target="_blank" href="../.././p/108122/">
-                        央媒国际：中国人深知有国才有家，愿意承受生活方面的暂时损失
-                    </a>
-                    <a target="_blank">
-                        <span style="font-size: 10px;color: #999;">@品大萝卜</span>
                     </a>
                 </div>
             </div>
@@ -419,11 +377,66 @@
             
             <div class="user-detail-item" style="padding: 0px;">
                 <div class="tags-post-title">
-                    <a target="_blank" href="../.././p/104486/">
-                        冯小刚锵锵三人行谈文革
+                    <a target="_blank" href="../.././p/72271/">
+                        東亞窪地的費拉循環
                     </a>
                     <a target="_blank">
-                        <span style="font-size: 10px;color: #999;">@Zachary.Zhao</span>
+                        <span style="font-size: 10px;color: #999;">@粗鄙</span>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="user-detail-item" style="padding: 0px;">
+                <div class="tags-post-title">
+                    <a target="_blank" href="../.././p/149166/">
+                        【每日微博谈】十月二十五 伊利举报前董事长 日本停止对华40年援助
+                    </a>
+                    <a target="_blank">
+                        <span style="font-size: 10px;color: #999;">@Daa</span>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="user-detail-item" style="padding: 0px;">
+                <div class="tags-post-title">
+                    <a target="_blank" href="../.././p/148596/">
+                        再谈中国民主化后的制度设计
+                    </a>
+                    <a target="_blank">
+                        <span style="font-size: 10px;color: #999;">@陈士杰</span>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="user-detail-item" style="padding: 0px;">
+                <div class="tags-post-title">
+                    <a target="_blank" href="../.././p/86205/">
+                        姨粉们，悄悄告诉你们姨学其实源于毛学
+                    </a>
+                    <a target="_blank">
+                        <span style="font-size: 10px;color: #999;">@通商宽衣</span>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="user-detail-item" style="padding: 0px;">
+                <div class="tags-post-title">
+                    <a target="_blank" href="../.././p/147973/">
+                        【每日微博谈】十月二十二 台普悠玛列车发生出轨事故 沙特国王像卡舒吉家人表示哀悼
+                    </a>
+                    <a target="_blank">
+                        <span style="font-size: 10px;color: #999;">@Daa</span>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="user-detail-item" style="padding: 0px;">
+                <div class="tags-post-title">
+                    <a target="_blank" href="../.././p/143398/">
+                        【每日微博谈】十月十一 全球股市震荡上证千股跌停 崔永元举报上海警方
+                    </a>
+                    <a target="_blank">
+                        <span style="font-size: 10px;color: #999;">@Daa</span>
                     </a>
                 </div>
             </div>

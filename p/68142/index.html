@@ -122,8 +122,21 @@
 
 
 <div style="height: 30px;margin-top: 15px;">
-    <div id="translateLink" class="btn-gray" style="float: right; font-size: 11px; cursor: pointer; margin-right: 15px;">简繁转换</div>
+    <div
+        id="translateLink"
+        class="btn-gray"
+        style="float: right; font-size: 11px; cursor: pointer; margin-right: 15px;"
+        onclick="TongWen.transAuto()"
+    >
+        简繁转换
+    </div>
 </div>
+
+<script src="../.././static/lib/tongwentang/tongwen_core.js"></script>
+<script src="../.././static/lib/tongwentang/tongwen_table_s2t.min.js"></script>
+<script src="../.././static/lib/tongwentang/tongwen_table_t2s.min.js"></script>
+<script src="../.././static/lib/tongwentang/tongwen_table_ps2t.min.js"></script>
+<script src="../.././static/lib/tongwentang/tongwen_table_pt2s.min.js"></script>
 
 
 <div class="row">
@@ -1254,50 +1267,50 @@
             
             
                 <div class="more-like-item">
-                    <a href="../.././p/49182/">
-                        现代中国社会，到底是男性物化女性多一点，还是女性物化自身更多呢？
+                    <a href="../.././p/130287/">
+                        哪些国家是假民主?
                     </a>
                 </div>
             
                 <div class="more-like-item">
-                    <a href="../.././p/36187/">
-                        兄弟姊妹的关系与夫妻关系亲疏比较？
+                    <a href="../.././p/79860/">
+                        朝鲜释放三名美国人质，如何评价？
                     </a>
                 </div>
             
                 <div class="more-like-item">
-                    <a href="../.././p/78380/">
-                        棱镜计划有因斯诺登爆料停止吗？
+                    <a href="../.././p/72292/">
+                        成吉思汗是不是中國人？
                     </a>
                 </div>
             
                 <div class="more-like-item">
-                    <a href="../.././p/120506/">
-                        如何看待新浪财经发布的文章《中国年轻人正带领国家走向危机》？
+                    <a href="../.././p/82127/">
+                        中国，朝鲜，外蒙古三国是不是东亚黄种人的耻辱？
                     </a>
                 </div>
             
                 <div class="more-like-item">
-                    <a href="../.././p/13712/">
-                        有哪些比较好听的乡村音乐？
+                    <a href="../.././p/9196/">
+                        如何看待“美国妇女向川普车队竖中指被雇主解雇”？
                     </a>
                 </div>
             
                 <div class="more-like-item">
-                    <a href="../.././p/124850/">
-                        為何很少聽到中國有律師法官醫師牙醫從政？
+                    <a href="../.././p/81165/">
+                        如何评价毛泽东？
                     </a>
                 </div>
             
                 <div class="more-like-item">
-                    <a href="../.././p/39658/">
-                        如何看待将取消国家主席任期最大为两届的规定将被取消
+                    <a href="../.././p/48965/">
+                        自主招生是更公平了吗？
                     </a>
                 </div>
             
                 <div class="more-like-item">
-                    <a href="../.././p/125042/">
-                        西方社会都是些什么样的人信仰基督教？
+                    <a href="../.././p/44943/">
+                        如何评价 PS4 游戏 GT 赛车：竞速
                     </a>
                 </div>
             
@@ -1329,39 +1342,6 @@
             
             <div class="user-detail-item" style="padding: 0px;">
                 <div class="tags-post-title">
-                    <a target="_blank" href="../.././p/116983/">
-                        我那购物只用拼多多的朋友们
-                    </a>
-                    <a target="_blank">
-                        <span style="font-size: 10px;color: #999;">@米米</span>
-                    </a>
-                </div>
-            </div>
-            
-            <div class="user-detail-item" style="padding: 0px;">
-                <div class="tags-post-title">
-                    <a target="_blank" href="../.././p/71562/">
-                        禁用品蔥網站繁簡轉換
-                    </a>
-                    <a target="_blank">
-                        <span style="font-size: 10px;color: #999;">@粗鄙</span>
-                    </a>
-                </div>
-            </div>
-            
-            <div class="user-detail-item" style="padding: 0px;">
-                <div class="tags-post-title">
-                    <a target="_blank" href="../.././p/149166/">
-                        【每日微博谈】十月二十五 伊利举报前董事长 日本停止对华40年援助
-                    </a>
-                    <a target="_blank">
-                        <span style="font-size: 10px;color: #999;">@Daa</span>
-                    </a>
-                </div>
-            </div>
-            
-            <div class="user-detail-item" style="padding: 0px;">
-                <div class="tags-post-title">
                     <a target="_blank" href="../.././p/147973/">
                         【每日微博谈】十月二十二 台普悠玛列车发生出轨事故 沙特国王像卡舒吉家人表示哀悼
                     </a>
@@ -1373,8 +1353,41 @@
             
             <div class="user-detail-item" style="padding: 0px;">
                 <div class="tags-post-title">
-                    <a target="_blank" href="../.././p/85201/">
-                        毛澤東思想
+                    <a target="_blank" href="../.././p/128381/">
+                        中国式军训：迷彩崇拜与威权国家的上行下效
+                    </a>
+                    <a target="_blank">
+                        <span style="font-size: 10px;color: #999;">@风之轻语</span>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="user-detail-item" style="padding: 0px;">
+                <div class="tags-post-title">
+                    <a target="_blank" href="../.././p/137373/">
+                        红四姐约炮日记（1）
+                    </a>
+                    <a target="_blank">
+                        <span style="font-size: 10px;color: #999;">@红四姐</span>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="user-detail-item" style="padding: 0px;">
+                <div class="tags-post-title">
+                    <a target="_blank" href="../.././p/143398/">
+                        【每日微博谈】十月十一 全球股市震荡上证千股跌停 崔永元举报上海警方
+                    </a>
+                    <a target="_blank">
+                        <span style="font-size: 10px;color: #999;">@Daa</span>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="user-detail-item" style="padding: 0px;">
+                <div class="tags-post-title">
+                    <a target="_blank" href="../.././p/71287/">
+                        劉仲敬：假國家
                     </a>
                     <a target="_blank">
                         <span style="font-size: 10px;color: #999;">@粗鄙</span>
@@ -1384,22 +1397,11 @@
             
             <div class="user-detail-item" style="padding: 0px;">
                 <div class="tags-post-title">
-                    <a target="_blank" href="../.././p/82381/">
-                        概括：劉仲敬論點——費拉論
+                    <a target="_blank" href="../.././p/49168/">
+                        一群在没有价值的谎言中生活的人，永远没有未来可言
                     </a>
                     <a target="_blank">
-                        <span style="font-size: 10px;color: #999;">@粗鄙</span>
-                    </a>
-                </div>
-            </div>
-            
-            <div class="user-detail-item" style="padding: 0px;">
-                <div class="tags-post-title">
-                    <a target="_blank" href="../.././p/72271/">
-                        東亞窪地的費拉循環
-                    </a>
-                    <a target="_blank">
-                        <span style="font-size: 10px;color: #999;">@粗鄙</span>
+                        <span style="font-size: 10px;color: #999;">@黃正宇</span>
                     </a>
                 </div>
             </div>
@@ -1411,6 +1413,17 @@
                     </a>
                     <a target="_blank">
                         <span style="font-size: 10px;color: #999;">@weed3000</span>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="user-detail-item" style="padding: 0px;">
+                <div class="tags-post-title">
+                    <a target="_blank" href="../.././p/41555/">
+                        跑分破纪录，三星为华为海思敲响警钟
+                    </a>
+                    <a target="_blank">
+                        <span style="font-size: 10px;color: #999;">@爱喵党</span>
                     </a>
                 </div>
             </div>

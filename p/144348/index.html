@@ -116,8 +116,21 @@
 
 
 <div style="height: 30px;margin-top: 15px;">
-    <div id="translateLink" class="btn-gray" style="float: right; font-size: 11px; cursor: pointer; margin-right: 15px;">简繁转换</div>
+    <div
+        id="translateLink"
+        class="btn-gray"
+        style="float: right; font-size: 11px; cursor: pointer; margin-right: 15px;"
+        onclick="TongWen.transAuto()"
+    >
+        简繁转换
+    </div>
 </div>
+
+<script src="../.././static/lib/tongwentang/tongwen_core.js"></script>
+<script src="../.././static/lib/tongwentang/tongwen_table_s2t.min.js"></script>
+<script src="../.././static/lib/tongwentang/tongwen_table_t2s.min.js"></script>
+<script src="../.././static/lib/tongwentang/tongwen_table_ps2t.min.js"></script>
+<script src="../.././static/lib/tongwentang/tongwen_table_pt2s.min.js"></script>
 
 
 <div class="row">
@@ -254,28 +267,6 @@
             
             <div class="user-detail-item" style="padding: 0px;">
                 <div class="tags-post-title">
-                    <a target="_blank" href="../.././p/90828/">
-                        一票之差导致每年中国的公司须向高通付千亿5G专利费
-                    </a>
-                    <a target="_blank">
-                        <span style="font-size: 10px;color: #999;">@品大萝卜</span>
-                    </a>
-                </div>
-            </div>
-            
-            <div class="user-detail-item" style="padding: 0px;">
-                <div class="tags-post-title">
-                    <a target="_blank" href="../.././p/147946/">
-                        ZZ: 得知越来越多女大学生被包养价值观开始动摇怎么办？
-                    </a>
-                    <a target="_blank">
-                        <span style="font-size: 10px;color: #999;">@sprint</span>
-                    </a>
-                </div>
-            </div>
-            
-            <div class="user-detail-item" style="padding: 0px;">
-                <div class="tags-post-title">
                     <a target="_blank" href="../.././p/71562/">
                         禁用品蔥網站繁簡轉換
                     </a>
@@ -287,11 +278,11 @@
             
             <div class="user-detail-item" style="padding: 0px;">
                 <div class="tags-post-title">
-                    <a target="_blank" href="../.././p/116336/">
-                        色目人特权，汉族当奶牛，四等人制天怒人怨，大元灭亡历史教训总结
+                    <a target="_blank" href="../.././p/70861/">
+                        儒家思想天生为统治思想
                     </a>
                     <a target="_blank">
-                        <span style="font-size: 10px;color: #999;">@weed3000</span>
+                        <span style="font-size: 10px;color: #999;">@新木</span>
                     </a>
                 </div>
             </div>
@@ -309,33 +300,55 @@
             
             <div class="user-detail-item" style="padding: 0px;">
                 <div class="tags-post-title">
-                    <a target="_blank" href="../.././p/100141/">
-                        把你放到1978年，你能预测出苏联的未来吗？
-                    </a>
-                    <a target="_blank">
-                        <span style="font-size: 10px;color: #999;">@冲田桑大胜利</span>
-                    </a>
-                </div>
-            </div>
-            
-            <div class="user-detail-item" style="padding: 0px;">
-                <div class="tags-post-title">
-                    <a target="_blank" href="../.././p/146658/">
-                        为什么不能指望美国帮助中国实现民主
-                    </a>
-                    <a target="_blank">
-                        <span style="font-size: 10px;color: #999;">@第三新索多玛</span>
-                    </a>
-                </div>
-            </div>
-            
-            <div class="user-detail-item" style="padding: 0px;">
-                <div class="tags-post-title">
-                    <a target="_blank" href="../.././p/147973/">
-                        【每日微博谈】十月二十二 台普悠玛列车发生出轨事故 沙特国王像卡舒吉家人表示哀悼
+                    <a target="_blank" href="../.././p/125442/">
+                        【每日微博谈】八月二十四 寿光大水
                     </a>
                     <a target="_blank">
                         <span style="font-size: 10px;color: #999;">@Daa</span>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="user-detail-item" style="padding: 0px;">
+                <div class="tags-post-title">
+                    <a target="_blank" href="../.././p/41555/">
+                        跑分破纪录，三星为华为海思敲响警钟
+                    </a>
+                    <a target="_blank">
+                        <span style="font-size: 10px;color: #999;">@爱喵党</span>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="user-detail-item" style="padding: 0px;">
+                <div class="tags-post-title">
+                    <a target="_blank" href="../.././p/149166/">
+                        【每日微博谈】十月二十五 伊利举报前董事长 日本停止对华40年援助
+                    </a>
+                    <a target="_blank">
+                        <span style="font-size: 10px;color: #999;">@Daa</span>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="user-detail-item" style="padding: 0px;">
+                <div class="tags-post-title">
+                    <a target="_blank" href="../.././p/82381/">
+                        概括：劉仲敬論點——費拉論
+                    </a>
+                    <a target="_blank">
+                        <span style="font-size: 10px;color: #999;">@粗鄙</span>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="user-detail-item" style="padding: 0px;">
+                <div class="tags-post-title">
+                    <a target="_blank" href="../.././p/71106/">
+                        统一与民主—驳刘仲敬的诸夏论
+                    </a>
+                    <a target="_blank">
+                        <span style="font-size: 10px;color: #999;">@Shawn</span>
                     </a>
                 </div>
             </div>

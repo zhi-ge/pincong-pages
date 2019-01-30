@@ -122,8 +122,21 @@
 
 
 <div style="height: 30px;margin-top: 15px;">
-    <div id="translateLink" class="btn-gray" style="float: right; font-size: 11px; cursor: pointer; margin-right: 15px;">简繁转换</div>
+    <div
+        id="translateLink"
+        class="btn-gray"
+        style="float: right; font-size: 11px; cursor: pointer; margin-right: 15px;"
+        onclick="TongWen.transAuto()"
+    >
+        简繁转换
+    </div>
 </div>
+
+<script src="../.././static/lib/tongwentang/tongwen_core.js"></script>
+<script src="../.././static/lib/tongwentang/tongwen_table_s2t.min.js"></script>
+<script src="../.././static/lib/tongwentang/tongwen_table_t2s.min.js"></script>
+<script src="../.././static/lib/tongwentang/tongwen_table_ps2t.min.js"></script>
+<script src="../.././static/lib/tongwentang/tongwen_table_pt2s.min.js"></script>
 
 
 <div class="row">
@@ -1135,50 +1148,50 @@
             
             
                 <div class="more-like-item">
-                    <a href="../.././p/68142/">
-                        如何看待班农称“中国就像1930年的德国，年轻人热衷极端民族主义”？
+                    <a href="../.././p/54783/">
+                        如何评价那年那兔那些事？
                     </a>
                 </div>
             
                 <div class="more-like-item">
-                    <a href="../.././p/149579/">
-                        如何估算中国的真实失业率？
+                    <a href="../.././p/20489/">
+                        如何看待梁文道、窦文涛一类的学者型温和派？
                     </a>
                 </div>
             
                 <div class="more-like-item">
-                    <a href="../.././p/119899/">
-                        大陸網絡對廣告的容忍度那麼低嗎？
+                    <a href="../.././p/5522/">
+                        十九大前国内VPN翻墙难易情况都是怎么样？
                     </a>
                 </div>
             
                 <div class="more-like-item">
-                    <a href="../.././p/55389/">
-                        如何评价文章《教育变成这个样子，真的是你们所希望的吗？》？
+                    <a href="../.././p/63140/">
+                        反对TG，就一定要反对中国吗？
                     </a>
                 </div>
             
                 <div class="more-like-item">
-                    <a href="../.././p/123026/">
-                        目前的经济形势糟糕，有什么样的应对措施？
+                    <a href="../.././p/86423/">
+                        如何评价法官裁决川普不可以拉黑推特用户？
                     </a>
                 </div>
             
                 <div class="more-like-item">
-                    <a href="../.././p/83550/">
-                        如何评价 高光俊 ：中国和平改良是失败的道路?
+                    <a href="../.././p/71565/">
+                        品蔥網站如何對抗中共審查（黑客攻擊，金錢收買等）？
                     </a>
                 </div>
             
                 <div class="more-like-item">
-                    <a href="../.././p/129805/">
-                        川普2020大选有戏吗？
+                    <a href="../.././p/80391/">
+                        如何评价《人民日报：道德沦丧是当前经济滑坡的根本原因》？
                     </a>
                 </div>
             
                 <div class="more-like-item">
-                    <a href="../.././p/6459/">
-                        知乎上那么多爱国人士不是应该让中国变得更好吗？为什么一揭TG的黑暗一批评TG他们就会反击？
+                    <a href="../.././p/71292/">
+                        国外IT巨头公司为什么不能靠腾讯模式来发财？
                     </a>
                 </div>
             
@@ -1210,19 +1223,41 @@
             
             <div class="user-detail-item" style="padding: 0px;">
                 <div class="tags-post-title">
-                    <a target="_blank" href="../.././p/146658/">
-                        为什么不能指望美国帮助中国实现民主
+                    <a target="_blank" href="../.././p/149166/">
+                        【每日微博谈】十月二十五 伊利举报前董事长 日本停止对华40年援助
                     </a>
                     <a target="_blank">
-                        <span style="font-size: 10px;color: #999;">@第三新索多玛</span>
+                        <span style="font-size: 10px;color: #999;">@Daa</span>
                     </a>
                 </div>
             </div>
             
             <div class="user-detail-item" style="padding: 0px;">
                 <div class="tags-post-title">
-                    <a target="_blank" href="../.././p/106972/">
-                        逃离深圳 逃离中国 也许这才是我们的硬伤
+                    <a target="_blank" href="../.././p/50046/">
+                        一评国内美术教育产业化乱象
+                    </a>
+                    <a target="_blank">
+                        <span style="font-size: 10px;color: #999;">@拥蓝</span>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="user-detail-item" style="padding: 0px;">
+                <div class="tags-post-title">
+                    <a target="_blank" href="../.././p/147973/">
+                        【每日微博谈】十月二十二 台普悠玛列车发生出轨事故 沙特国王像卡舒吉家人表示哀悼
+                    </a>
+                    <a target="_blank">
+                        <span style="font-size: 10px;color: #999;">@Daa</span>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="user-detail-item" style="padding: 0px;">
+                <div class="tags-post-title">
+                    <a target="_blank" href="../.././p/120174/">
+                        范冰冰被传遭软禁在北京 行动无自由
                     </a>
                     <a target="_blank">
                         <span style="font-size: 10px;color: #999;">@品大萝卜</span>
@@ -1232,22 +1267,33 @@
             
             <div class="user-detail-item" style="padding: 0px;">
                 <div class="tags-post-title">
-                    <a target="_blank" href="../.././p/116336/">
-                        色目人特权，汉族当奶牛，四等人制天怒人怨，大元灭亡历史教训总结
+                    <a target="_blank" href="../.././p/71562/">
+                        禁用品蔥網站繁簡轉換
                     </a>
                     <a target="_blank">
-                        <span style="font-size: 10px;color: #999;">@weed3000</span>
+                        <span style="font-size: 10px;color: #999;">@粗鄙</span>
                     </a>
                 </div>
             </div>
             
             <div class="user-detail-item" style="padding: 0px;">
                 <div class="tags-post-title">
-                    <a target="_blank" href="../.././p/41555/">
-                        跑分破纪录，三星为华为海思敲响警钟
+                    <a target="_blank" href="../.././p/38916/">
+                        建议品葱在个人主页显示点赞数时将不同性质的点赞分类
                     </a>
                     <a target="_blank">
-                        <span style="font-size: 10px;color: #999;">@爱喵党</span>
+                        <span style="font-size: 10px;color: #999;">@空水中明</span>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="user-detail-item" style="padding: 0px;">
+                <div class="tags-post-title">
+                    <a target="_blank" href="../.././p/85201/">
+                        毛澤東思想
+                    </a>
+                    <a target="_blank">
+                        <span style="font-size: 10px;color: #999;">@粗鄙</span>
                     </a>
                 </div>
             </div>
@@ -1259,39 +1305,6 @@
                     </a>
                     <a target="_blank">
                         <span style="font-size: 10px;color: #999;">@通商宽衣</span>
-                    </a>
-                </div>
-            </div>
-            
-            <div class="user-detail-item" style="padding: 0px;">
-                <div class="tags-post-title">
-                    <a target="_blank" href="../.././p/76015/">
-                        「自古以來」的「中華民族」
-                    </a>
-                    <a target="_blank">
-                        <span style="font-size: 10px;color: #999;">@粗鄙香蕉</span>
-                    </a>
-                </div>
-            </div>
-            
-            <div class="user-detail-item" style="padding: 0px;">
-                <div class="tags-post-title">
-                    <a target="_blank" href="../.././p/74177/">
-                        全记录 | 岳昕申请信息公开被约谈施压事件
-                    </a>
-                    <a target="_blank">
-                        <span style="font-size: 10px;color: #999;">@时代先锋网</span>
-                    </a>
-                </div>
-            </div>
-            
-            <div class="user-detail-item" style="padding: 0px;">
-                <div class="tags-post-title">
-                    <a target="_blank" href="../.././p/149166/">
-                        【每日微博谈】十月二十五 伊利举报前董事长 日本停止对华40年援助
-                    </a>
-                    <a target="_blank">
-                        <span style="font-size: 10px;color: #999;">@Daa</span>
                     </a>
                 </div>
             </div>

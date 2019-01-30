@@ -122,8 +122,21 @@
 
 
 <div style="height: 30px;margin-top: 15px;">
-    <div id="translateLink" class="btn-gray" style="float: right; font-size: 11px; cursor: pointer; margin-right: 15px;">简繁转换</div>
+    <div
+        id="translateLink"
+        class="btn-gray"
+        style="float: right; font-size: 11px; cursor: pointer; margin-right: 15px;"
+        onclick="TongWen.transAuto()"
+    >
+        简繁转换
+    </div>
 </div>
+
+<script src="../.././static/lib/tongwentang/tongwen_core.js"></script>
+<script src="../.././static/lib/tongwentang/tongwen_table_s2t.min.js"></script>
+<script src="../.././static/lib/tongwentang/tongwen_table_t2s.min.js"></script>
+<script src="../.././static/lib/tongwentang/tongwen_table_ps2t.min.js"></script>
+<script src="../.././static/lib/tongwentang/tongwen_table_pt2s.min.js"></script>
 
 
 <div class="row">
@@ -743,50 +756,50 @@
             
             
                 <div class="more-like-item">
-                    <a href="../.././p/5260/">
-                        在台湾有哪些让你感动和不爽的事情/物？
+                    <a href="../.././p/131654/">
+                        大家如何看待图中的“不能把宗教信仰自由理解为宗教自由”？这是否意味着中共会加紧对于国内宗教的迫害？
                     </a>
                 </div>
             
                 <div class="more-like-item">
-                    <a href="../.././p/75390/">
-                        美国给盟友的「核保护伞」可信度有多大？
+                    <a href="../.././p/81974/">
+                        在汉语语法上看，"男生"/"女生"这两个词是否频繁被使用错误？
                     </a>
                 </div>
             
                 <div class="more-like-item">
-                    <a href="../.././p/40134/">
-                        在当前现实局限下，有什么方法可以展示中国人民真实的民意？
+                    <a href="../.././p/116129/">
+                        品葱的社交功能为什么不补充起来？这会大大降低社区的活性
                     </a>
                 </div>
             
                 <div class="more-like-item">
-                    <a href="../.././p/82545/">
-                        如何看待巴以问题？
+                    <a href="../.././p/64213/">
+                        在墙内避过审查传播真相是否有必要？
                     </a>
                 </div>
             
                 <div class="more-like-item">
-                    <a href="../.././p/53121/">
-                        如何看待三台合一组建“中国之声”，并且电影、出版归中宣直管？
+                    <a href="../.././p/79104/">
+                        如果未来中国民主化了，是否会导致分裂？
                     </a>
                 </div>
             
                 <div class="more-like-item">
-                    <a href="../.././p/145954/">
-                        如何评价这两种 “反对中共在六四时的所作所为” 不同角度？
+                    <a href="../.././p/118240/">
+                        你身边的共产党员都是怎样的人？
                     </a>
                 </div>
             
                 <div class="more-like-item">
-                    <a href="../.././p/78380/">
-                        棱镜计划有因斯诺登爆料停止吗？
+                    <a href="../.././p/121976/">
+                        如何有效解决中国愚民太多的问题？
                     </a>
                 </div>
             
                 <div class="more-like-item">
-                    <a href="../.././p/61285/">
-                        有哪些事件全世界都知道，只有中国人不知道？
+                    <a href="../.././p/84731/">
+                        中国人面对日本是否缺乏民族自信心？
                     </a>
                 </div>
             
@@ -818,44 +831,11 @@
             
             <div class="user-detail-item" style="padding: 0px;">
                 <div class="tags-post-title">
-                    <a target="_blank" href="../.././p/147946/">
-                        ZZ: 得知越来越多女大学生被包养价值观开始动摇怎么办？
+                    <a target="_blank" href="../.././p/100141/">
+                        把你放到1978年，你能预测出苏联的未来吗？
                     </a>
                     <a target="_blank">
-                        <span style="font-size: 10px;color: #999;">@sprint</span>
-                    </a>
-                </div>
-            </div>
-            
-            <div class="user-detail-item" style="padding: 0px;">
-                <div class="tags-post-title">
-                    <a target="_blank" href="../.././p/72271/">
-                        東亞窪地的費拉循環
-                    </a>
-                    <a target="_blank">
-                        <span style="font-size: 10px;color: #999;">@粗鄙</span>
-                    </a>
-                </div>
-            </div>
-            
-            <div class="user-detail-item" style="padding: 0px;">
-                <div class="tags-post-title">
-                    <a target="_blank" href="../.././p/149166/">
-                        【每日微博谈】十月二十五 伊利举报前董事长 日本停止对华40年援助
-                    </a>
-                    <a target="_blank">
-                        <span style="font-size: 10px;color: #999;">@Daa</span>
-                    </a>
-                </div>
-            </div>
-            
-            <div class="user-detail-item" style="padding: 0px;">
-                <div class="tags-post-title">
-                    <a target="_blank" href="../.././p/115354/">
-                        拒绝被骚扰的第一百零一种方式
-                    </a>
-                    <a target="_blank">
-                        <span style="font-size: 10px;color: #999;">@鹿ㄦ</span>
+                        <span style="font-size: 10px;color: #999;">@冲田桑大胜利</span>
                     </a>
                 </div>
             </div>
@@ -873,33 +853,66 @@
             
             <div class="user-detail-item" style="padding: 0px;">
                 <div class="tags-post-title">
-                    <a target="_blank" href="../.././p/116983/">
-                        我那购物只用拼多多的朋友们
+                    <a target="_blank" href="../.././p/85782/">
+                        只有共產國際才有能力發明中國
                     </a>
                     <a target="_blank">
-                        <span style="font-size: 10px;color: #999;">@米米</span>
+                        <span style="font-size: 10px;color: #999;">@粗鄙</span>
                     </a>
                 </div>
             </div>
             
             <div class="user-detail-item" style="padding: 0px;">
                 <div class="tags-post-title">
-                    <a target="_blank" href="../.././p/128381/">
-                        中国式军训：迷彩崇拜与威权国家的上行下效
+                    <a target="_blank" href="../.././p/70861/">
+                        儒家思想天生为统治思想
                     </a>
                     <a target="_blank">
-                        <span style="font-size: 10px;color: #999;">@风之轻语</span>
+                        <span style="font-size: 10px;color: #999;">@新木</span>
                     </a>
                 </div>
             </div>
             
             <div class="user-detail-item" style="padding: 0px;">
                 <div class="tags-post-title">
-                    <a target="_blank" href="../.././p/50046/">
-                        一评国内美术教育产业化乱象
+                    <a target="_blank" href="../.././p/115354/">
+                        拒绝被骚扰的第一百零一种方式
                     </a>
                     <a target="_blank">
-                        <span style="font-size: 10px;color: #999;">@拥蓝</span>
+                        <span style="font-size: 10px;color: #999;">@鹿ㄦ</span>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="user-detail-item" style="padding: 0px;">
+                <div class="tags-post-title">
+                    <a target="_blank" href="../.././p/74177/">
+                        全记录 | 岳昕申请信息公开被约谈施压事件
+                    </a>
+                    <a target="_blank">
+                        <span style="font-size: 10px;color: #999;">@时代先锋网</span>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="user-detail-item" style="padding: 0px;">
+                <div class="tags-post-title">
+                    <a target="_blank" href="../.././p/121162/">
+                        为什么刘仲敬会火？ （作者：王威）
+                    </a>
+                    <a target="_blank">
+                        <span style="font-size: 10px;color: #999;">@通商宽衣</span>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="user-detail-item" style="padding: 0px;">
+                <div class="tags-post-title">
+                    <a target="_blank" href="../.././p/148596/">
+                        再谈中国民主化后的制度设计
+                    </a>
+                    <a target="_blank">
+                        <span style="font-size: 10px;color: #999;">@陈士杰</span>
                     </a>
                 </div>
             </div>

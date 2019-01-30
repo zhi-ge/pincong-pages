@@ -122,8 +122,21 @@
 
 
 <div style="height: 30px;margin-top: 15px;">
-    <div id="translateLink" class="btn-gray" style="float: right; font-size: 11px; cursor: pointer; margin-right: 15px;">简繁转换</div>
+    <div
+        id="translateLink"
+        class="btn-gray"
+        style="float: right; font-size: 11px; cursor: pointer; margin-right: 15px;"
+        onclick="TongWen.transAuto()"
+    >
+        简繁转换
+    </div>
 </div>
+
+<script src="../.././static/lib/tongwentang/tongwen_core.js"></script>
+<script src="../.././static/lib/tongwentang/tongwen_table_s2t.min.js"></script>
+<script src="../.././static/lib/tongwentang/tongwen_table_t2s.min.js"></script>
+<script src="../.././static/lib/tongwentang/tongwen_table_ps2t.min.js"></script>
+<script src="../.././static/lib/tongwentang/tongwen_table_pt2s.min.js"></script>
 
 
 <div class="row">
@@ -712,50 +725,50 @@
             
             
                 <div class="more-like-item">
-                    <a href="../.././p/66879/">
-                        人应如何在适当 运用理性的情况下，产生对信仰的正确认识？
+                    <a href="../.././p/84188/">
+                        2018年，中國再列寧化（倒車、重回 50 年代），無法移民出國，如何在國內生存保命？
                     </a>
                 </div>
             
                 <div class="more-like-item">
-                    <a href="../.././p/42348/">
-                        有哪些適合搭建梯子(vpn)用於翻牆的主機/VPS推薦？
+                    <a href="../.././p/64861/">
+                        对中共来说，什么人会是压垮骆驼的最后一根稻草
                     </a>
                 </div>
             
                 <div class="more-like-item">
-                    <a href="../.././p/19732/">
-                        奔驰GLC、奥迪Q5、宝马X3的对比情况如何？
+                    <a href="../.././p/85793/">
+                        根据姨学，台湾是不是该分成三个民族？
                     </a>
                 </div>
             
                 <div class="more-like-item">
-                    <a href="../.././p/68981/">
-                        回望历史，你认为中国错过了哪些发展机会？
+                    <a href="../.././p/130310/">
+                        最近YouTube所有民运人士的自媒体频道均出现异常！比如订阅负增长点赞数据不足原来1/10等状况
                     </a>
                 </div>
             
                 <div class="more-like-item">
-                    <a href="../.././p/109922/">
-                        为何右派总是宣扬民主自由、普世价值之类的，而很少提资本主义？
+                    <a href="../.././p/98630/">
+                        无论中共做出不少贡献为什么还有人总是批判？
                     </a>
                 </div>
             
                 <div class="more-like-item">
-                    <a href="../.././p/85416/">
-                        如何看待刘仲敬的“民族发明学”（或“解体论”）？
+                    <a href="../.././p/123998/">
+                        如何看待抖音、快手等应用？
                     </a>
                 </div>
             
                 <div class="more-like-item">
-                    <a href="../.././p/6079/">
-                        有哪些中国墙内习以为常的，国外却不可以做的事情？
+                    <a href="../.././p/82064/">
+                        若无对自由的感知，何谈对自由的争取 ( 考虑互联网自由和宗教自由 ) ？
                     </a>
                 </div>
             
                 <div class="more-like-item">
-                    <a href="../.././p/13712/">
-                        有哪些比较好听的乡村音乐？
+                    <a href="../.././p/27013/">
+                        中央为何突然要开展扫黑除恶专项斗争？可能会有什么样的影响？
                     </a>
                 </div>
             
@@ -787,11 +800,55 @@
             
             <div class="user-detail-item" style="padding: 0px;">
                 <div class="tags-post-title">
-                    <a target="_blank" href="../.././p/76015/">
-                        「自古以來」的「中華民族」
+                    <a target="_blank" href="../.././p/80126/">
+                        中國的未來（各種崩潰論簡介）
                     </a>
                     <a target="_blank">
-                        <span style="font-size: 10px;color: #999;">@粗鄙香蕉</span>
+                        <span style="font-size: 10px;color: #999;">@粗鄙</span>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="user-detail-item" style="padding: 0px;">
+                <div class="tags-post-title">
+                    <a target="_blank" href="../.././p/137373/">
+                        红四姐约炮日记（1）
+                    </a>
+                    <a target="_blank">
+                        <span style="font-size: 10px;color: #999;">@红四姐</span>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="user-detail-item" style="padding: 0px;">
+                <div class="tags-post-title">
+                    <a target="_blank" href="../.././p/147946/">
+                        ZZ: 得知越来越多女大学生被包养价值观开始动摇怎么办？
+                    </a>
+                    <a target="_blank">
+                        <span style="font-size: 10px;color: #999;">@sprint</span>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="user-detail-item" style="padding: 0px;">
+                <div class="tags-post-title">
+                    <a target="_blank" href="../.././p/84035/">
+                        夏日炎炎，拿点仌块消消暑。象形字——仌
+                    </a>
+                    <a target="_blank">
+                        <span style="font-size: 10px;color: #999;">@聖母瑪麗蘇</span>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="user-detail-item" style="padding: 0px;">
+                <div class="tags-post-title">
+                    <a target="_blank" href="../.././p/115492/">
+                        贸易战接下来会发生什么（个人粗浅的观点）
+                    </a>
+                    <a target="_blank">
+                        <span style="font-size: 10px;color: #999;">@利维坦</span>
                     </a>
                 </div>
             </div>
@@ -809,66 +866,22 @@
             
             <div class="user-detail-item" style="padding: 0px;">
                 <div class="tags-post-title">
-                    <a target="_blank" href="../.././p/70861/">
-                        儒家思想天生为统治思想
+                    <a target="_blank" href="../.././p/41555/">
+                        跑分破纪录，三星为华为海思敲响警钟
                     </a>
                     <a target="_blank">
-                        <span style="font-size: 10px;color: #999;">@新木</span>
+                        <span style="font-size: 10px;color: #999;">@爱喵党</span>
                     </a>
                 </div>
             </div>
             
             <div class="user-detail-item" style="padding: 0px;">
                 <div class="tags-post-title">
-                    <a target="_blank" href="../.././p/71562/">
-                        禁用品蔥網站繁簡轉換
+                    <a target="_blank" href="../.././p/128381/">
+                        中国式军训：迷彩崇拜与威权国家的上行下效
                     </a>
                     <a target="_blank">
-                        <span style="font-size: 10px;color: #999;">@粗鄙</span>
-                    </a>
-                </div>
-            </div>
-            
-            <div class="user-detail-item" style="padding: 0px;">
-                <div class="tags-post-title">
-                    <a target="_blank" href="../.././p/106972/">
-                        逃离深圳 逃离中国 也许这才是我们的硬伤
-                    </a>
-                    <a target="_blank">
-                        <span style="font-size: 10px;color: #999;">@品大萝卜</span>
-                    </a>
-                </div>
-            </div>
-            
-            <div class="user-detail-item" style="padding: 0px;">
-                <div class="tags-post-title">
-                    <a target="_blank" href="../.././p/86205/">
-                        姨粉们，悄悄告诉你们姨学其实源于毛学
-                    </a>
-                    <a target="_blank">
-                        <span style="font-size: 10px;color: #999;">@通商宽衣</span>
-                    </a>
-                </div>
-            </div>
-            
-            <div class="user-detail-item" style="padding: 0px;">
-                <div class="tags-post-title">
-                    <a target="_blank" href="../.././p/63899/">
-                        如何连上隐形网路(I2P)?
-                    </a>
-                    <a target="_blank">
-                        <span style="font-size: 10px;color: #999;">@乱弹</span>
-                    </a>
-                </div>
-            </div>
-            
-            <div class="user-detail-item" style="padding: 0px;">
-                <div class="tags-post-title">
-                    <a target="_blank" href="../.././p/143398/">
-                        【每日微博谈】十月十一 全球股市震荡上证千股跌停 崔永元举报上海警方
-                    </a>
-                    <a target="_blank">
-                        <span style="font-size: 10px;color: #999;">@Daa</span>
+                        <span style="font-size: 10px;color: #999;">@风之轻语</span>
                     </a>
                 </div>
             </div>

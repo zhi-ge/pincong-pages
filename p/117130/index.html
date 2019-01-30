@@ -122,8 +122,21 @@
 
 
 <div style="height: 30px;margin-top: 15px;">
-    <div id="translateLink" class="btn-gray" style="float: right; font-size: 11px; cursor: pointer; margin-right: 15px;">简繁转换</div>
+    <div
+        id="translateLink"
+        class="btn-gray"
+        style="float: right; font-size: 11px; cursor: pointer; margin-right: 15px;"
+        onclick="TongWen.transAuto()"
+    >
+        简繁转换
+    </div>
 </div>
+
+<script src="../.././static/lib/tongwentang/tongwen_core.js"></script>
+<script src="../.././static/lib/tongwentang/tongwen_table_s2t.min.js"></script>
+<script src="../.././static/lib/tongwentang/tongwen_table_t2s.min.js"></script>
+<script src="../.././static/lib/tongwentang/tongwen_table_ps2t.min.js"></script>
+<script src="../.././static/lib/tongwentang/tongwen_table_pt2s.min.js"></script>
 
 
 <div class="row">
@@ -359,50 +372,50 @@
             
             
                 <div class="more-like-item">
-                    <a href="../.././p/58935/">
-                        如何看“一名博士给中共中央政治局常务委员会的公开信”？
+                    <a href="../.././p/36146/">
+                        如何看待“SpaceX将发射首批全球互联网卫星”？能突破GFW吗？
                     </a>
                 </div>
             
                 <div class="more-like-item">
-                    <a href="../.././p/143638/">
-                        2018年中国在海外投资和收购转移技术的难度情况如何了？
+                    <a href="../.././p/110563/">
+                        民进党为什么会有那么多派系？有利还是有弊？
                     </a>
                 </div>
             
                 <div class="more-like-item">
-                    <a href="../.././p/123026/">
-                        目前的经济形势糟糕，有什么样的应对措施？
+                    <a href="../.././p/149898/">
+                        谁能找到法新社提到的这些政府公开文件？（关于新疆再教育营采购）
                     </a>
                 </div>
             
                 <div class="more-like-item">
-                    <a href="../.././p/47420/">
-                        如何评价美国之音采访人大代表政协委员关于修宪的表态？
+                    <a href="../.././p/63140/">
+                        反对TG，就一定要反对中国吗？
                     </a>
                 </div>
             
                 <div class="more-like-item">
-                    <a href="../.././p/83596/">
-                        你有哪些下意识的、“理所当然”的错误认识？
+                    <a href="../.././p/16354/">
+                        如何反驳“只要自己不干坏事，身正不怕影子斜，就不用担心无所不在的监控”？
                     </a>
                 </div>
             
                 <div class="more-like-item">
-                    <a href="../.././p/21936/">
-                        习派用来清除干净江派的最好的方法是什么？
+                    <a href="../.././p/92916/">
+                        如何看待习近平给普京颁发「友谊勋章」？
                     </a>
                 </div>
             
                 <div class="more-like-item">
-                    <a href="../.././p/7422/">
-                        如何评价弱主胡锦涛？
+                    <a href="../.././p/9638/">
+                        台湾应该如何有效的防止中共的武统？
                     </a>
                 </div>
             
                 <div class="more-like-item">
-                    <a href="../.././p/123329/">
-                        将来有一天中共将中国网络和世界网络彻底隔绝切割以后墙内的人还有什么办法获取外边的资讯？
+                    <a href="../.././p/2483/">
+                        环球时报造过哪些谣？
                     </a>
                 </div>
             
@@ -434,55 +447,11 @@
             
             <div class="user-detail-item" style="padding: 0px;">
                 <div class="tags-post-title">
-                    <a target="_blank" href="../.././p/86205/">
-                        姨粉们，悄悄告诉你们姨学其实源于毛学
+                    <a target="_blank" href="../.././p/63899/">
+                        如何连上隐形网路(I2P)?
                     </a>
                     <a target="_blank">
-                        <span style="font-size: 10px;color: #999;">@通商宽衣</span>
-                    </a>
-                </div>
-            </div>
-            
-            <div class="user-detail-item" style="padding: 0px;">
-                <div class="tags-post-title">
-                    <a target="_blank" href="../.././p/116983/">
-                        我那购物只用拼多多的朋友们
-                    </a>
-                    <a target="_blank">
-                        <span style="font-size: 10px;color: #999;">@米米</span>
-                    </a>
-                </div>
-            </div>
-            
-            <div class="user-detail-item" style="padding: 0px;">
-                <div class="tags-post-title">
-                    <a target="_blank" href="../.././p/148596/">
-                        再谈中国民主化后的制度设计
-                    </a>
-                    <a target="_blank">
-                        <span style="font-size: 10px;color: #999;">@陈士杰</span>
-                    </a>
-                </div>
-            </div>
-            
-            <div class="user-detail-item" style="padding: 0px;">
-                <div class="tags-post-title">
-                    <a target="_blank" href="../.././p/104486/">
-                        冯小刚锵锵三人行谈文革
-                    </a>
-                    <a target="_blank">
-                        <span style="font-size: 10px;color: #999;">@Zachary.Zhao</span>
-                    </a>
-                </div>
-            </div>
-            
-            <div class="user-detail-item" style="padding: 0px;">
-                <div class="tags-post-title">
-                    <a target="_blank" href="../.././p/131102/">
-                        佳士工人维权事件，官方评论的逻辑
-                    </a>
-                    <a target="_blank">
-                        <span style="font-size: 10px;color: #999;">@風之輕語</span>
+                        <span style="font-size: 10px;color: #999;">@乱弹</span>
                     </a>
                 </div>
             </div>
@@ -500,22 +469,66 @@
             
             <div class="user-detail-item" style="padding: 0px;">
                 <div class="tags-post-title">
-                    <a target="_blank" href="../.././p/125324/">
-                        大情报意味着什么？（1）
+                    <a target="_blank" href="../.././p/104486/">
+                        冯小刚锵锵三人行谈文革
                     </a>
                     <a target="_blank">
-                        <span style="font-size: 10px;color: #999;">@杨圭葱</span>
+                        <span style="font-size: 10px;color: #999;">@Zachary.Zhao</span>
                     </a>
                 </div>
             </div>
             
             <div class="user-detail-item" style="padding: 0px;">
                 <div class="tags-post-title">
-                    <a target="_blank" href="../.././p/63899/">
-                        如何连上隐形网路(I2P)?
+                    <a target="_blank" href="../.././p/74177/">
+                        全记录 | 岳昕申请信息公开被约谈施压事件
                     </a>
                     <a target="_blank">
-                        <span style="font-size: 10px;color: #999;">@乱弹</span>
+                        <span style="font-size: 10px;color: #999;">@时代先锋网</span>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="user-detail-item" style="padding: 0px;">
+                <div class="tags-post-title">
+                    <a target="_blank" href="../.././p/86205/">
+                        姨粉们，悄悄告诉你们姨学其实源于毛学
+                    </a>
+                    <a target="_blank">
+                        <span style="font-size: 10px;color: #999;">@通商宽衣</span>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="user-detail-item" style="padding: 0px;">
+                <div class="tags-post-title">
+                    <a target="_blank" href="../.././p/41555/">
+                        跑分破纪录，三星为华为海思敲响警钟
+                    </a>
+                    <a target="_blank">
+                        <span style="font-size: 10px;color: #999;">@爱喵党</span>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="user-detail-item" style="padding: 0px;">
+                <div class="tags-post-title">
+                    <a target="_blank" href="../.././p/90828/">
+                        一票之差导致每年中国的公司须向高通付千亿5G专利费
+                    </a>
+                    <a target="_blank">
+                        <span style="font-size: 10px;color: #999;">@品大萝卜</span>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="user-detail-item" style="padding: 0px;">
+                <div class="tags-post-title">
+                    <a target="_blank" href="../.././p/149166/">
+                        【每日微博谈】十月二十五 伊利举报前董事长 日本停止对华40年援助
+                    </a>
+                    <a target="_blank">
+                        <span style="font-size: 10px;color: #999;">@Daa</span>
                     </a>
                 </div>
             </div>

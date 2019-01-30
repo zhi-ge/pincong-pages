@@ -122,8 +122,21 @@
 
 
 <div style="height: 30px;margin-top: 15px;">
-    <div id="translateLink" class="btn-gray" style="float: right; font-size: 11px; cursor: pointer; margin-right: 15px;">简繁转换</div>
+    <div
+        id="translateLink"
+        class="btn-gray"
+        style="float: right; font-size: 11px; cursor: pointer; margin-right: 15px;"
+        onclick="TongWen.transAuto()"
+    >
+        简繁转换
+    </div>
 </div>
+
+<script src="../.././static/lib/tongwentang/tongwen_core.js"></script>
+<script src="../.././static/lib/tongwentang/tongwen_table_s2t.min.js"></script>
+<script src="../.././static/lib/tongwentang/tongwen_table_t2s.min.js"></script>
+<script src="../.././static/lib/tongwentang/tongwen_table_ps2t.min.js"></script>
+<script src="../.././static/lib/tongwentang/tongwen_table_pt2s.min.js"></script>
 
 
 <div class="row">
@@ -1992,50 +2005,50 @@
             
             
                 <div class="more-like-item">
-                    <a href="../.././p/87916/">
-                        辛亥革命算不算境外反华势力？
+                    <a href="../.././p/118112/">
+                        民国时代知识青年投奔延安，与当今欧美第二代穆斯林移民投奔伊斯兰国是否有可比性？
                     </a>
                 </div>
             
                 <div class="more-like-item">
-                    <a href="../.././p/82133/">
-                        任何支持共產黨的人，是否活該被共產黨屠殺？
+                    <a href="../.././p/47112/">
+                        胡锡进开设中文推特帐号的目的可能是什么？
                     </a>
                 </div>
             
                 <div class="more-like-item">
-                    <a href="../.././p/605/">
-                        邓小平在九十年代初是打算废除江泽民吗？为什么？
+                    <a href="../.././p/117130/">
+                        同样都是学渣，习近平和特朗普，谁的治国能力更高？
                     </a>
                 </div>
             
                 <div class="more-like-item">
-                    <a href="../.././p/127666/">
-                        如何看待美国参议员要通过法律要求在美国上市的中国企业遵守美国法律？
+                    <a href="../.././p/6079/">
+                        有哪些中国墙内习以为常的，国外却不可以做的事情？
                     </a>
                 </div>
             
                 <div class="more-like-item">
-                    <a href="../.././p/98044/">
-                        “新中国”是不是华夏大地上又一个新的王朝？
+                    <a href="../.././p/84731/">
+                        中国人面对日本是否缺乏民族自信心？
                     </a>
                 </div>
             
                 <div class="more-like-item">
-                    <a href="../.././p/4259/">
-                        你希望品葱成为什么样的网站？不希望品葱成为什么样的网站？
+                    <a href="../.././p/107836/">
+                        美苏冷战时在美的苏联人有没有受到什么牵连？
                     </a>
                 </div>
             
                 <div class="more-like-item">
-                    <a href="../.././p/13644/">
-                        防火长城（GFW）未来将会在技术上有哪些发展？届时将如何进行翻墙？
+                    <a href="../.././p/72440/">
+                        科学和理性的局限在哪里，这个世界什么东西是科学和理性无话可说的范围？
                     </a>
                 </div>
             
                 <div class="more-like-item">
-                    <a href="../.././p/145624/">
-                        经常骑自行车锻炼会不会对前列腺睾丸造成损害？
+                    <a href="../.././p/85668/">
+                        我很好奇，台独以后台湾是不是该还给原住民？
                     </a>
                 </div>
             
@@ -2067,44 +2080,11 @@
             
             <div class="user-detail-item" style="padding: 0px;">
                 <div class="tags-post-title">
-                    <a target="_blank" href="../.././p/100141/">
-                        把你放到1978年，你能预测出苏联的未来吗？
+                    <a target="_blank" href="../.././p/121162/">
+                        为什么刘仲敬会火？ （作者：王威）
                     </a>
                     <a target="_blank">
-                        <span style="font-size: 10px;color: #999;">@冲田桑大胜利</span>
-                    </a>
-                </div>
-            </div>
-            
-            <div class="user-detail-item" style="padding: 0px;">
-                <div class="tags-post-title">
-                    <a target="_blank" href="../.././p/104486/">
-                        冯小刚锵锵三人行谈文革
-                    </a>
-                    <a target="_blank">
-                        <span style="font-size: 10px;color: #999;">@Zachary.Zhao</span>
-                    </a>
-                </div>
-            </div>
-            
-            <div class="user-detail-item" style="padding: 0px;">
-                <div class="tags-post-title">
-                    <a target="_blank" href="../.././p/85201/">
-                        毛澤東思想
-                    </a>
-                    <a target="_blank">
-                        <span style="font-size: 10px;color: #999;">@粗鄙</span>
-                    </a>
-                </div>
-            </div>
-            
-            <div class="user-detail-item" style="padding: 0px;">
-                <div class="tags-post-title">
-                    <a target="_blank" href="../.././p/71562/">
-                        禁用品蔥網站繁簡轉換
-                    </a>
-                    <a target="_blank">
-                        <span style="font-size: 10px;color: #999;">@粗鄙</span>
+                        <span style="font-size: 10px;color: #999;">@通商宽衣</span>
                     </a>
                 </div>
             </div>
@@ -2122,33 +2102,66 @@
             
             <div class="user-detail-item" style="padding: 0px;">
                 <div class="tags-post-title">
-                    <a target="_blank" href="../.././p/70861/">
-                        儒家思想天生为统治思想
+                    <a target="_blank" href="../.././p/128381/">
+                        中国式军训：迷彩崇拜与威权国家的上行下效
                     </a>
                     <a target="_blank">
-                        <span style="font-size: 10px;color: #999;">@新木</span>
+                        <span style="font-size: 10px;color: #999;">@风之轻语</span>
                     </a>
                 </div>
             </div>
             
             <div class="user-detail-item" style="padding: 0px;">
                 <div class="tags-post-title">
-                    <a target="_blank" href="../.././p/127958/">
-                        Reddit有人反映在品葱上注册失败/注册成功后帐号失踪
+                    <a target="_blank" href="../.././p/137373/">
+                        红四姐约炮日记（1）
                     </a>
                     <a target="_blank">
-                        <span style="font-size: 10px;color: #999;">@Pana Max</span>
+                        <span style="font-size: 10px;color: #999;">@红四姐</span>
                     </a>
                 </div>
             </div>
             
             <div class="user-detail-item" style="padding: 0px;">
                 <div class="tags-post-title">
-                    <a target="_blank" href="../.././p/149934/">
-                        聊聊今年包皇这些事儿
+                    <a target="_blank" href="../.././p/76015/">
+                        「自古以來」的「中華民族」
                     </a>
                     <a target="_blank">
-                        <span style="font-size: 10px;color: #999;">@贰佰斤</span>
+                        <span style="font-size: 10px;color: #999;">@粗鄙香蕉</span>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="user-detail-item" style="padding: 0px;">
+                <div class="tags-post-title">
+                    <a target="_blank" href="../.././p/123361/">
+                        同治之乱：正视一部被颠倒的华夏血泪史
+                    </a>
+                    <a target="_blank">
+                        <span style="font-size: 10px;color: #999;">@weed3000</span>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="user-detail-item" style="padding: 0px;">
+                <div class="tags-post-title">
+                    <a target="_blank" href="../.././p/82381/">
+                        概括：劉仲敬論點——費拉論
+                    </a>
+                    <a target="_blank">
+                        <span style="font-size: 10px;color: #999;">@粗鄙</span>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="user-detail-item" style="padding: 0px;">
+                <div class="tags-post-title">
+                    <a target="_blank" href="../.././p/125442/">
+                        【每日微博谈】八月二十四 寿光大水
+                    </a>
+                    <a target="_blank">
+                        <span style="font-size: 10px;color: #999;">@Daa</span>
                     </a>
                 </div>
             </div>
